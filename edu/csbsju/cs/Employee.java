@@ -39,4 +39,9 @@ public class Employee
    private String name;
    private double salary;
    private Date hireDay;
+   
+   public String toString() {
+	   String info = "Name: " + name + "\njSalary: " + salary + "\nHire Day: " + hireDay;
+	   return info;
+   }
 }
